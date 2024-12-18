@@ -1,0 +1,23 @@
+{
+  "name": "ds-bot",
+  "version": "1.0.0",
+  "description": "discord bot for Neko Corner",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dsbot"
+  },
+  "author": "AsaNekoo",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
